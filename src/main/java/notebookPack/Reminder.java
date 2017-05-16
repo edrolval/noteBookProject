@@ -1,14 +1,14 @@
 package notebookPack;
 
 public class Reminder extends Note {
-    String time;
+    private String time;
 
     Reminder(String pNote) {
         this.time = "TheTime";
         this.setNote(pNote);
     }
 
-    String getTime() {
+    private String getTime() {
         return time;
     }
     public void setTime(String time) {
