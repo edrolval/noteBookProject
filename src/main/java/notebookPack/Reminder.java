@@ -2,6 +2,7 @@ package notebookPack;
 
 public class Reminder extends Note {
     private String time;
+    private String none;
 
     Reminder(String pNote) {
         this.time = "TheTime";
